@@ -186,6 +186,7 @@ nav a:hover {
     border: 2px solid aqua;
     padding: 10px 20px;
     font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     margin-right: 100px;
     float: right;
@@ -318,8 +319,92 @@ nav a:hover {
 .h2-4 {
     padding: 0 20px;
     margin-left: 100px;
+    margin-bottom: 75px;
     font-family: 'Montserrat', sans-serif;
     color: gray;
     font-weight: 300;
     width: 1000px;
+}
+
+.form {
+    margin-left: 120px;
+    width: 37%;
+    border: 3px solid aqua;
+    height: 480px;
+}
+
+form table {
+    width: 100%;
+}
+
+.h1-table {
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 50px 0 30px;
+}
+
+table tr {
+    width: 100%;
+}
+
+table tr label {
+    padding: 5px 0;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form input {
+    border-style: none;
+    border-bottom: 1px solid black;
+    height: 30px;
+    width: 210px;
+    font-size: 16px;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+}
+
+.table-data {
+    padding-left: 25px;
+}
+
+.table-data #message {
+    width: 470px;
+}
+
+#submit {
+    margin: 0 25px;
+    width: 435px;
+    background-color: aqua;
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px 0;
+}
+
+#submit:hover {
+    background-color: blue;
+}
+
+.iframe-side {
+    margin-right: 120px;
+    width: 40%;
+    height: auto;
+}
+
+.h1-iframe {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.form-iframe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
