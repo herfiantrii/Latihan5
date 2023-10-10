@@ -216,7 +216,7 @@ nav a:hover {
 }
 
 .h1-3-1 {
-    text-align: left;
+    text-align: center;
     color: black;
     font-size: 27px;
     font-weight: 600;
@@ -247,7 +247,7 @@ nav a:hover {
 }
 
 .h1-3-2 {
-    text-align: left;
+    text-align: center;
     color: black;
     font-size: 27px;
     font-weight: 600;
@@ -278,7 +278,7 @@ nav a:hover {
 }
 
 .h1-3-3 {
-    text-align: left;
+    text-align: center;
     color: black;
     font-size: 27px;
     font-weight: 600;
@@ -299,11 +299,27 @@ nav a:hover {
     margin-top: 60px;
     margin-left: 100px;
     margin-right: 100px;
+    margin-bottom: 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-#contact {
-    margin-top: 200px;
+.h1-4 {
+    margin-left: 100px;
+    margin-bottom: 5px;
+    padding: 0 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    width: 550px;
+    font-size: 50px;
+}
+
+.h2-4 {
+    padding: 0 20px;
+    margin-left: 100px;
+    font-family: 'Montserrat', sans-serif;
+    color: gray;
+    font-weight: 300;
+    width: 1000px;
 }
