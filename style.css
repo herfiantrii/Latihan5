@@ -408,3 +408,49 @@ table tr label {
     justify-content: space-between;
     align-items: center;
 }
+
+footer {
+    position: relative;
+    background-color: aqua;
+    padding-top: 20px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.h1-footer {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+    margin-left: 120px;
+    margin-bottom: 5px;
+}
+
+.h2-footer {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+    width: 300px;
+    margin-left: 120px;
+}
+
+.container-logo {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 20px;
+    margin-right: 70px;
+}
+
+.container-logo a {
+    margin-left: 10px;
+}
+
+.container-footer {
+    display: flex;
+    align-items: center;
+}
